@@ -10,16 +10,16 @@
 class Drumai < Formula
   desc "Command line tool for creating Drum AI drum presets"
   homepage "https://github.com/govo/drumai-cli"
-  version "0.1.2"
+  version "0.2.0"
 
   on_arm do
-    url "https://github.com/govo/drumai-cli/releases/download/v0.1.2/drumai-0.1.2-darwin-arm64.tar.gz"
-    sha256 "fd73a95f36790c68809baf0702e22bc3d5bc0db7604d58e09889105e22ed1c4b"
+    url "https://github.com/govo/drumai-cli/releases/download/v0.2.0/drumai-0.2.0-darwin-arm64.tar.gz"
+    sha256 "a8ca16d0d83a6fd30ca9f99d85dab768f5465b8ef2c36a42062f25cd9ea16616"
   end
 
   on_intel do
-    url "https://github.com/govo/drumai-cli/releases/download/v0.1.2/drumai-0.1.2-darwin-x64.tar.gz"
-    sha256 "4d664120f5d72734585081cbb59242d5fc1aac38580efc201cd1478ff28449c7"
+    url "https://github.com/govo/drumai-cli/releases/download/v0.2.0/drumai-0.2.0-darwin-x64.tar.gz"
+    sha256 "b2af9f9980bdf3f512aa1a712c747652960732a2101c4f89217476f51fbfd6b1"
   end
 
   def install
