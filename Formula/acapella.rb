@@ -17,12 +17,12 @@ class Acapella < Formula
 
   on_arm do
     url "https://github.com/govo/acapella-cli/releases/download/v0.1.1/acapella-0.1.1-darwin-arm64.tar.gz"
-    sha256 "fc5d3c628e75c49575d6abc1f8b45f531ceeed5b1e983e205a126e195ed4e94d"
+    sha256 "57e9a8865e02c339b8c297038afd9d6c2b1c537dbdcd8032d81c3baa44825242"
   end
 
   on_intel do
     url "https://github.com/govo/acapella-cli/releases/download/v0.1.1/acapella-0.1.1-darwin-x64.tar.gz"
-    sha256 "d0fc428c99dcf9400e0d61666b3dec8bbe6efc8ed74c3c9e90a4635ba6c53a88"
+    sha256 "472088f4904b767c9b1d2234fd28c4c2258ad0b858bba36345937cc289868a95"
   end
 
   def install
