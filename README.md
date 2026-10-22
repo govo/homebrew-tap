@@ -24,6 +24,12 @@ acapella doctor     # App 在不在、token 对不对
 acapella state      # 当前工程快照
 ```
 
+Homebrew 6 起，第三方 tap 需要先信任，否则会拒绝加载 formula：
+
+```bash
+brew trust govo/tap          # 已在装了 drumai 的机器上执行过就可以跳过
+```
+
 前置：Acapella.app 运行中，且 设置 → 「AI 控制」已打开。
 
 `Formula/acapella.rb` 由 `acapella-cli/scripts/release.sh` 整份生成，**不要手改**
