@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+._*
+
+# tap 里只放 Formula，不存任何二进制
+*.tar.gz
+*.zip
+*.dmg
