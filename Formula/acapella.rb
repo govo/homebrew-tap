@@ -13,16 +13,16 @@
 class Acapella < Formula
   desc "Command-line client for the Acapella app on macOS"
   homepage "https://github.com/govo/acapella-cli"
-  version "0.5.2"
+  version "0.6.0"
 
   on_arm do
-    url "https://github.com/govo/acapella-cli/releases/download/v0.5.2/acapella-0.5.2-darwin-arm64.tar.gz"
-    sha256 "3f9812306aa793297d42be2d9e48d30c52eca77192f729976344ae370e265a63"
+    url "https://github.com/govo/acapella-cli/releases/download/v0.6.0/acapella-0.6.0-darwin-arm64.tar.gz"
+    sha256 "2af44ae9513c72bec225089b8072088c0345354d8231b511579ff7d7081f433e"
   end
 
   on_intel do
-    url "https://github.com/govo/acapella-cli/releases/download/v0.5.2/acapella-0.5.2-darwin-x64.tar.gz"
-    sha256 "c2a509ccf7753c1d181654f9503ac13b88a6de42134d535190cdf35b74e2eb1a"
+    url "https://github.com/govo/acapella-cli/releases/download/v0.6.0/acapella-0.6.0-darwin-x64.tar.gz"
+    sha256 "acc34e8a64eeb40bf54360e15c5fd37b790e564df11d77c9321ee98f4e7026f8"
   end
 
   def install
