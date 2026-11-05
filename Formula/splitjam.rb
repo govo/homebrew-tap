@@ -14,16 +14,16 @@
 class Splitjam < Formula
   desc "Command-line client for the SplitJam app on macOS"
   homepage "https://github.com/govo/splitjam_cli"
-  version "0.1.0"
+  version "0.3.0"
 
   on_arm do
-    url "https://github.com/govo/splitjam_cli/releases/download/v0.1.0/splitjam-0.1.0-darwin-arm64.tar.gz"
-    sha256 "ce82264c266b9d7777ad188e551a48b5217899f8f429392e2b9b0acf50bdbcdb"
+    url "https://github.com/govo/splitjam_cli/releases/download/v0.3.0/splitjam-0.3.0-darwin-arm64.tar.gz"
+    sha256 "7cd239ba65c6d4da0dd919615a246b8f8992df7b8625670a887a7e7102db1d56"
   end
 
   on_intel do
-    url "https://github.com/govo/splitjam_cli/releases/download/v0.1.0/splitjam-0.1.0-darwin-x64.tar.gz"
-    sha256 "4ef16378235c820f033fd96108274df7fcfc42fdf8a434a02bedd713ba66446f"
+    url "https://github.com/govo/splitjam_cli/releases/download/v0.3.0/splitjam-0.3.0-darwin-x64.tar.gz"
+    sha256 "bcf998d98e8f451662731057312b6d2cee1c47a9e02583967f1884484d95d26a"
   end
 
   def install
